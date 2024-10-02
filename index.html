@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/icons8-j-48.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Responsive portfolio website</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Junaid</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                   <li>
+                    <a href="#home" class="nav__link">Home</a>
+                   </li>
+
+                   <li>
+                    <a href="#work" class="nav__link">Work</a>
+                   </li>
+
+                   <li>
+                    <a href="#info" class="nav__link">My Info</a>
+                   </li>
+
+                   <li>
+                    <a href="#services" class="nav__link">Services</a>
+                   </li>
+
+                   <li>
+                    <a href="#contact" class="nav__link">Contact Me</a>
+                   </li>
+                </ul>
+
+                <!-- close button -->
+                 <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                 </div>
+            </div>
+
+            <!-- Toggle button -->
+             <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+             </div>
+        </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container Container grid">
+                <img src = "assets/img/IMG_2460.JPG" alt = "image" class = "home__img">
+            </div>
+            <div class="home__data">
+                <h1 class="home__name">Hi! I'm Junaid Akhtar</h1>
+                <h3 class="home__profession">I am a passionate Front-End Developer with 1.5 years of experience in creating dynamic and user-friendly web applications. My journey in web development has equipped me with a strong foundation in modern front-end technologies, and I thrive on transforming ideas into engaging digital experiences.</h3>
+             </div>
+ 
+             <center>
+                <a href="work" class="home__scroll">
+                   <div class="home__scroll-box">
+                      <i class = "ri-arrow-down-line"></i>
+                   </div>
+ 
+                   <span class="home__scroll-text">Recent work</span>
+                </a>
+             </center>
+          </section>
+         </section>
+
+         <!--==================== WORKS ====================-->
+         <section class="work section" id="work">
+            <h2 class="section__title">RECENT WORKS</h2>
+
+            <div class="work__container container grid">
+               <article class="work__card">
+                  <a href="#" target = "blank" class="work__link">
+                     <h2 class="work__title">AI Chatbot</h2>
+                     <p class="work__description">
+                        Introducing my AI chatbot, designed to elevate user interactions and streamline communication for businesses and websites. This intelligent chatbot leverages natural language processing (NLP) to understand and respond to user queries in real-time, providing instant assistance and support.
+                     </p>
+
+                     <img src = 'assets/img/work-1.jpg' alt = "image" class = "work__img">
+
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+
+               <article class="work__card">
+                  <a href="#" target = "blank" class="work__link">
+                     <h2 class="work__title">Jarvis</h2>
+                     <p class="work__description">
+                        Introducing Jarvis, an intelligent assistant designed to keep you updated with the latest news and provide personalized music recommendations. Combining advanced algorithms and user-friendly interfaces, Jarvis is your go-to platform for staying informed and entertained.
+                     </p>
+
+                     <img src = 'assets/img/work-2.jpg' alt = "image" class = "work__img">
+
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+
+               <article class="work__card">
+                  <a href="#" target = "blank" class="work__link">
+                     <h2 class="work__title">E-commerce website</h2>
+                     <p class="work__description">
+                        shopping website using skills like html css and javascript to looking stylish and attractive.
+                     </p>
+
+                     <img src = 'assets/img/work-3.jpg' alt = "image" class = "work__img">
+
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== INFO ====================-->
+         <section class="info section" id="info">
+            <h2 class="section__title">MY INFO</h2>
+
+            <div class="info__container container grid">
+               <!-- ABOUT -->
+                <div class="about grid">
+                  <div class="about__content">
+                     <h3 class="info__title">About Me</h3>
+                     <p class="about__description">
+                        I'm a dedicated <span class = "about__me">Web Developer</span> ,
+                        <br>with a strong background in crafting user-friendly web applications. My expertise includes translating design concepts into responsive, interactive experiences using<br>
+                        <span class=about__me>HTML, CSS, and JavaScript</span>,<br>
+                        In addition to my front-end skills, I have robust experience with <span class=about__me>Python, particularly using Django for back-end development.</span> I also leverage libraries like<br>
+                         <span class=about__me> NumPy and Pandas for data manipulation</span><br>
+                         and analysis, enabling me to build powerful, data-driven applications.
+                     </p>
+
+                     <!-- resume should be added -->
+                     <a href="assets/pdf/curriculam-vitae.pdf" download = "" target = "_blank"class="button about__button">Download CV</a>
+                  </div>
+
+                  <!-- Image have to changed -->
+                  <img src = "assets/img/IMG_2460.JPG" alt = "image" class = "about__img">
+                </div>
+            </div>
+         </section>
+
+                <!-- ======= Experience =========== -->
+                <div class="experience">
+                  <h3 class="info__title">Experience</h3>
+
+                  <div class="experience__content grid">
+
+                     <!-- Copy paste the div to add ur experience -->
+
+                     <div class="experience__data grid">
+                        <h2 class="experience__company">Lightrove Technology</h2>
+
+                        <div>
+                           <h3 class="experience__profession">Front-end Developer</h3>
+                           <span class = "experience__date">March 2023 - July 2024</span>
+                           <p class="experience__description">
+                            In my role as a Front-End Developer, I have successfully designed and implemented user-centric web applications and websites
+                           </p>
+                           <h4>My key responsibilities:</h4>
+                                <ul> Design Implementation</ul>
+                                    <ul>Framework Utilization</ul>
+                                        <ul>Cross-Browser Compatibility</ul>
+                                            <ul>Performance Optimization</ul>
+                                                <ul> Version Control</ul>
+                        </div>
+                     </div>
+
+                     <!-- End of the experience div -->
+
+                  </div>
+         </section>
+
+         <!-- ======== Skills ============ -->
+          <section  class="skills section" id="skills">
+
+         <div class="skills">
+            <h3 class="info__title">Skills</h3>
+
+            <div class="skills__content grid">
+               <div class="skills__box">
+                  <img src = "assets/img/info-html.svg" alt="image" class= "skills__img">
+                  <span class="skills__name">HTML</span>
+               </div>
+               <div class="skills__box">
+                  <img src = "assets/img/info-css.svg" alt="image" class= "skills__img">
+                  <span class="skills__name">CSS</span>
+               </div>
+               <div class="skills__box">
+                  <img src = "assets/img/info-javascript.svg" alt="image" class= "skills__img">
+                  <span class="skills__name">Java Script</span>
+               </div>
+
+               <div class="skills__box">
+                  <img src = "assets/img/python-svgrepo-com.svg" alt="image" class= "skills__img">
+                  <span class="skills__name">Python</span>
+               </div>
+
+               <div class="skills__box">
+                  <img src = "assets/img/mysql-svgrepo-com.svg" alt="image" class= "skills__img">
+                  <span class="skills__name">Mysql</span>
+               </div>
+
+               <div class="skills__box">
+                  <img src = "assets/img/info-git.svg" alt="image" class= "skills__img">
+                  <span class="skills__name">git</span>
+               </div>
+
+               <div class="skills__box">
+                  <img src = "assets/img/info-github.svg" alt="image" class= "skills__img">
+                  <span class="skills__name">github</span>
+               </div>
+
+               <div class="skills__box">
+                  <img src = "assets/img/mongodb-svgrepo-com.svg" alt="image" class= "skills__img">
+                  <span class="skills__name">Mongodb</span>
+               </div>
+
+               <div class="skills__box">
+                <img src = "assets/img/django-svgrepo-com.svg" alt="image" class= "skills__img">
+                <span class="skills__name">Django</span>
+             </div>
+
+             <div class="skills__box">
+                <img src = "assets/img/numpy-svgrepo-com.svg" alt="image" class= "skills__img">
+                <span class="skills__name">Numpy</span>
+             </div>
+
+             <div class="skills__box">
+                <img src = "assets/img/info-tailwind-css.svg" alt="image" class= "skills__img">
+                <span class="skills__name">Tailwind CSS</span>
+             </div>
+
+             <div class="skills__box">
+                <img src = "assets/img/panda-bear-panda-svgrepo-com.svg" alt="image" class= "skills__img">
+                <span class="skills__name">Pandas</span>
+             </div>
+
+               <div class="skills__box">
+                  <img src = "assets/img/data-science-svgrepo-com.svg" alt="image" class= "skills__img">
+                  <span class="skills__name">Data Science</span>
+               </div>
+            </div>
+            </div>
+   </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section" id="services">
+            <h2 class="section__title">SERVICES</h2>
+
+            <div class="services__container container grid">
+               <article class="services__card">
+                  <i class="ri-code-box-line services__icon"></i>
+
+                  <h3 class="services__title">Web development</h3>
+                  <p class="services__description">
+                    Tailored solutions that reflect your brand identity and meet specific requirements. Dynamic applications that enhance user experience and functionality.</p>
+
+                  <i class="ri-code-box-line services__icon"></i>
+                  <h3 class="services__title">Responsive design</h3>
+                  <p class="services__description">
+                    Our responsive designs provide seamless experiences across all devices, from desktops to smartphones, ensuring your site looks great and functions well everywhere.</p>
+
+                  <i class="ri-code-box-line services__icon"></i>
+                  <h3 class="services__title">E-commerce Solutions</h3>
+                  <p class="services__description">
+                    Secure and scalable online stores equipped with user-friendly interfaces and payment integrations.</p>
+
+               </article>
+            </div>
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <h2 class="section__title">CONTACT ME</h2>
+
+            <div class="contact__container container grid">
+               <form action="" class="contact__form grid" id="contact-form">
+                  <div class="contact__group grid">
+                     <input type="text" name = "user_name" placeholder="Name" required class="contact__input">
+                     <input type="email" name = "user_email" placeholder="Email" required class="contact__input">
+                  </div>
+                  <textarea name="user_message" placeholder ="Message" class="contact__input contact__area"></textarea>
+
+                  <button type ="submit" class="button contact__button">Send Message</button>
+                  <p class="contact__message" id="contact-message">Message</p>
+               </form>
+
+               <div class="contact__social grid">
+                  <a href="https://github.com/junaid601" target="_blank" class="contact__social-link">
+                     <i class="ri-github-fill"></i>
+                     <span>Github</span>
+                  </a>
+
+                  <a href="https://www.linkedin.com/in/junaid-akhtar-188780134" target="_blank" class="contact__social-link">
+                     <i class="ri-linkedin-box-line"></i>
+                     <span>Linkedin</span>
+                  </a>
+
+                  <a href="https://www.instagram.com/_junaid__akhtar?igsh=MXVkOWJ2NWVIZnZnNQ%3D%3D&utm_source=qr" target="_blank" class="contact__social-link">
+                     <i class="ri-instagram-line"></i>
+                     <span>Instagram</span>
+                  </a>
+
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+               <li>
+                  <a href="#home" class="footer__link">Home</a>
+               </li>
+
+               <li>
+                  <a href="#work" class="footer__link">Work</a>
+               </li>
+
+               <li>
+                  <a href="#info" class="footer__link">Info</a>
+               </li>
+            </ul>
+
+            <span class="footer__copy">
+             2024 &#169; All Rights Reserved
+            </span>
+         </div>
+
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="'ri-arrow-up-line"></i>
+     </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src=""></script>
+
+      <!--=============== EMAIL JS ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
